@@ -451,6 +451,9 @@ body {
     font-size: 1.8rem;
     margin-bottom: 4px;
   }
+  .exampleList .exampleList-content > p {
+    font-size: 1.2rem;
+  }
   .exampleList .video-play {
     width: 46.8px;
     margin-left: -23.4px;
@@ -598,6 +601,7 @@ body {
     margin-bottom: 2px;
   }
   .news .newsConList > p {
+    font-size: 1.2rem;
     height: 35px;
     overflow-y: hidden;
     text-overflow: ellipsis;

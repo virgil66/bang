@@ -110,9 +110,9 @@
 				.find('.turnOver').hide();
 		}
 
-		if(objBang[navIndex] == "bangShop"){
-			window.location="http://www.1bpcafe.com/";
-		}
+		// if(objBang[navIndex] == "bangShop"){
+		// 	window.location="http://www.1bpcafe.com/";
+		// }
 		
 	});
 

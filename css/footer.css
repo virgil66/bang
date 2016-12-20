@@ -63,6 +63,7 @@
 }
 .footer .footerLink {
   color: #898989;
+  font-size: 1.2rem;
 }
 .footer .footerLink:hover {
   color: #ff0000;

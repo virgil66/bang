@@ -30,8 +30,9 @@
   display: inline;
 }
 .business .businessMain .former-bg {
-  width: 25.93%;
+  width: 21.988%;
   margin-right: 9.615%;
+  margin-top: 20px;
 }
 .business .businessMain:after {
   content: "";
@@ -132,8 +133,9 @@
   display: inline;
 }
 .operation .operationMain .former-bg {
-  width: 35.711%;
+  width: 32.763%;
   margin-right: 6.25%;
+  margin-top: 39px;
 }
 .operation .operationMain:after {
   content: "";
@@ -239,8 +241,9 @@
   display: inline;
 }
 .advisory .advisoryMain .former-bg {
-  width: 18.752%;
+  width: 15.943%;
   margin-right: 13.369%;
+  margin-top: 33px;
 }
 .advisory .advisoryMain .turnOver {
   position: absolute;
@@ -332,8 +335,9 @@
   display: inline;
 }
 .help .helpMain .former-bg {
-  width: 22.7%;
+  width: 18.747%;
   margin-right: 11.397%;
+  margin-top: 31px;
 }
 .help .helpMain .turnOver {
   position: absolute;
@@ -720,6 +724,7 @@
 }
 .advisoryContent .advisoryTips {
   color: #c4c4c4;
+  font-size: 1.2rem;
 }
 .helpContent {
   font-family: "Microsoft yahei";
@@ -1113,7 +1118,7 @@
     box-sizing: border-box;
   }
   .introCon {
-    bottom: 52px;
+    top: 79px;
     left: 80px;
     width: 354px;
   }
@@ -1199,12 +1204,12 @@
   }
   .advisoryMain .turnOver {
     width: 45px;
-    top: 131px;
+    top: 162px;
     right: 167px;
   }
   .helpMain .turnOver {
     width: 12px;
-    top: 182px;
+    top: 213px;
     right: 138px;
   }
   .expand .expandCon {
@@ -1261,13 +1266,14 @@
   }
   .expand .moduleFine-content > p {
     height: 34px;
+    font-size: 1.2rem;
     overflow: hidden;
   }
   .expand .moduleFine-content > p:not(.pFirst) {
     display: none;
   }
   .businessExpand .turnOver {
-    top: -74px;
+    top: -87px;
     left: 240px;
   }
   .businessExpand .expandCon > img {
@@ -1322,8 +1328,8 @@
   }
   .bangAppExpand .turnOver {
     width: 178px;
-    top: -80px;
-    left: 125px;
+    top: -134px;
+    left: 131px;
   }
   .bangAppExpand .expandCon {
     position: absolute;
@@ -1392,6 +1398,11 @@
   .helpContent .helpBody-groups > p {
     font-size: 1.2rem;
     margin-left: 22px;
+  }
+  .helpContent .helpBody-groups > img {
+    width: 471px;
+    margin-left: 16px;
+    margin-top: 3px;
   }
   .common-padding {
     padding-bottom: 20px;
@@ -1508,9 +1519,10 @@
     display: inline-block;
   }
   .bangAppContent .AppStore .download > img {
-    width: 20px;
+    width: 14px;
     margin-left: 8px;
     margin-right: 4px;
+    margin-top: -4px;
   }
   .bangAppContent .AppStore .download > span {
     width: 100px;
@@ -1593,10 +1605,10 @@
     font-size: 1.3rem;
   }
   .bangAppContent .recruLeft-content .recruLeftCon-groups > input {
-    width: 249px;
+    width: 239px;
     height: 24px;
     margin-top: 4px;
-    margin-right: 4px;
+    margin-right: 14px;
   }
   .bangAppContent .recruLeft-content .recruLeftCon-groups:last-child {
     height: 200px;
@@ -1629,12 +1641,16 @@
     font-size: 1.3rem;
     margin-bottom: 4px;
   }
+  .change {
+    height: auto !important;
+  }
   .change .bangAppMain-bg {
-    margin-top: 12px;
+    margin-top: 60px;
+    margin-bottom: 20px;
   }
   .change .introCon {
     width: 236px;
-    bottom: 25px;
+    top: 117px;
     left: 129px;
   }
   .change .introCon > h1 {
@@ -1649,7 +1665,7 @@
     margin-right: 67px !important;
   }
   .newChange .introCon {
-    bottom: 45px;
+    top: 117px;
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1731,7 +1747,7 @@
     box-sizing: border-box;
   }
   .introCon {
-    bottom: 52px;
+    top: 84px;
     left: 96px;
     width: 425px;
   }
@@ -1817,12 +1833,13 @@
   }
   .advisoryMain .turnOver {
     width: 59px;
-    top: 192px;
+    top: 219px;
     right: 225px;
   }
   .helpMain .turnOver {
-    width: 20px;
-    top: 233px;
+    width: 15px;
+    top: 272px;
+    right: 231px;
   }
   .expand .expandCon {
     margin-top: -199px;
@@ -1876,11 +1893,14 @@
     margin-bottom: 10px;
     font-size: 2.1rem;
   }
+  .expand .moduleFine-content > p {
+    font-size: 1.2rem;
+  }
   .expand .moduleFine-content > p:not(.pFirst) {
     display: none;
   }
   .businessExpand .turnOver {
-    top: -94px;
+    top: -109px;
     left: 303px;
   }
   .businessExpand .expandCon > img {
@@ -1930,7 +1950,7 @@
     margin-top: -136px;
   }
   .bangAppExpand .turnOver {
-    top: -96px;
+    top: -152px;
     left: 162px;
   }
   .bangAppExpand .expandCon {
@@ -2001,6 +2021,11 @@
   .helpContent .helpBody-groups > p {
     font-size: 1.3rem;
     margin-left: 26px;
+  }
+  .helpContent .helpBody-groups > img {
+    width: 566px;
+    margin-left: 20px;
+    margin-top: 4px;
   }
   .common-padding {
     padding-bottom: 28px;
@@ -2108,7 +2133,7 @@
     margin-bottom: 6px;
   }
   .bangAppContent .AppStore .download > img {
-    width: 20px;
+    width: 15px;
     margin-left: 8px;
     margin-right: 4px;
   }
@@ -2199,10 +2224,10 @@
     font-size: 1.3rem;
   }
   .bangAppContent .recruLeft-content .recruLeftCon-groups > input {
-    width: 146px;
+    width: 136px;
     height: 24px;
     margin-top: 4px;
-    margin-right: 4px;
+    margin-right: 14px;
   }
   .bangAppContent .recruLeft-content .recruLeftCon-groups:last-child {
     height: 200px;
@@ -2233,12 +2258,16 @@
     font-size: 1.3rem;
     margin-bottom: 4px;
   }
+  .change {
+    height: auto !important;
+  }
   .change .bangAppMain-bg {
-    margin-top: 20px;
+    margin-top: 62px;
+    margin-bottom: 20px;
   }
   .change .introCon {
     width: 270px;
-    bottom: 32px;
+    top: 125px;
     left: 163px;
   }
   .change .introCon > h1 {
@@ -2257,7 +2286,7 @@
     box-sizing: border-box;
   }
   .newChange .introCon {
-    bottom: 96px;
+    top: 183px;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
@@ -2339,7 +2368,7 @@
     box-sizing: border-box;
   }
   .introCon {
-    bottom: 72px;
+    top: 90px;
     left: 116px;
     width: 530px;
   }
@@ -2358,9 +2387,6 @@
     height: 48px;
     line-height: 48px;
     font-size: 1.8rem;
-  }
-  .operation .introCon {
-    bottom: 57px;
   }
   .operation .introHelp {
     /*.display(n);*/
@@ -2428,12 +2454,12 @@
   }
   .advisoryMain .turnOver {
     width: 73px;
-    top: 193px;
+    top: 223px;
     right: 307px;
   }
   .helpMain .turnOver {
     width: 20px;
-    top: 248px;
+    top: 278px;
     right: 234px;
   }
   .expand .expandCon {
@@ -2486,9 +2512,12 @@
     margin-bottom: 15px;
     font-size: 2.5rem;
   }
+  .expand .moduleFine-content > p {
+    font-size: 1.2rem;
+  }
   .businessExpand .turnOver {
-    top: -115px;
-    left: 342px;
+    top: -137px;
+    left: 350px;
   }
   .businessExpand .expandCon > img {
     bottom: -127px;
@@ -2537,7 +2566,7 @@
     margin-top: -165px;
   }
   .bangAppExpand .turnOver {
-    top: -115px;
+    top: -170px;
     left: 195px;
   }
   .bangAppExpand .expandCon {
@@ -2608,6 +2637,11 @@
   .helpContent .helpBody-groups > p {
     font-size: 1.4rem;
     margin-left: 33px;
+  }
+  .helpContent .helpBody-groups > img {
+    width: 566px;
+    margin-left: 28px;
+    margin-top: 8px;
   }
   .common-padding {
     padding-bottom: 54px;
@@ -2715,7 +2749,7 @@
     margin-bottom: 6px;
   }
   .bangAppContent .AppStore .download > img {
-    width: 24px;
+    width: 17px;
     margin-left: 15px;
     margin-right: 5px;
   }
@@ -2805,10 +2839,10 @@
     font-size: 1.4rem;
   }
   .bangAppContent .recruLeft-content .recruLeftCon-groups > input {
-    width: 198px;
+    width: 181px;
     height: 24px;
     margin-top: 4px;
-    margin-right: 4px;
+    margin-right: 21px;
   }
   .bangAppContent .recruLeft-content .recruLeftCon-groups:last-child {
     height: 200px;
@@ -2839,12 +2873,16 @@
     font-size: 1.4rem;
     margin-bottom: 4px;
   }
+  .change {
+    height: auto !important;
+  }
   .change .bangAppMain-bg {
-    margin-top: 25px;
+    margin-top: 52px;
+    margin-bottom: 20px;
   }
   .change .introCon {
     width: 270px;
-    bottom: 45px;
+    top: 129px;
     left: 200px;
   }
   .change .introCon > h1 {
@@ -2863,7 +2901,7 @@
     box-sizing: border-box;
   }
   .newChange .introCon {
-    bottom: 105px;
+    top: 184px;
   }
 }
 @media screen and (min-width: 1441px) {
@@ -2956,7 +2994,7 @@
   }
   .business .businessExpand .turnOver {
     left: 29.508%;
-    top: -187px;
+    top: -224px;
   }
   .business .businessExpand .expandCon > img {
     width: 30px;
@@ -3016,7 +3054,7 @@
   .advisory .advisoryMain .turnOver {
     width: 5.245%;
     right: 26.174%;
-    top: 232px;
+    top: 273px;
   }
   .advisory .advisoryExpand .expandCon {
     margin-top: -259px;
@@ -3065,7 +3103,7 @@
   .help .helpMain .turnOver {
     width: 1.4172%;
     right: 28.743%;
-    top: 317px;
+    top: 350px;
   }
   .help .helpExpand {
     border-bottom-width: 10px;
@@ -3105,6 +3143,11 @@
     box-sizing: border-box;
     font-size: 1.8rem;
   }
+  .help .helpExpand .helpContent .helpContent-body .helpBody-content .helpBody-groups > img {
+    width: 566px;
+    margin-left: 41px;
+    margin-top: 8px;
+  }
   .bangApp .bangAppMain {
     padding: 74px 0;
     box-sizing: border-box;
@@ -3133,10 +3176,12 @@
     margin-top: 15px;
   }
   .bangApp .bangAppMain .bangAppMain-bg {
-    width: 16.393%;
+    width: 13.715%;
+    margin-top: 85px;
+    margin-bottom: 30px;
   }
   .bangApp .bangAppExpand .turnOver {
-    top: -186px;
+    top: -222px;
     left: 18.269%;
   }
   .bangApp .bangAppExpand .expandCon {
@@ -3257,7 +3302,7 @@
     margin-bottom: 6px;
   }
   .bangApp .bangAppExpand .bangAppContent .bangAppContent-bodyBg .bangAppContent-body .bangAppBody-groups.AppDownload .AppDownload-content .AppDownload-right .AppStore .download > img {
-    width: 24px;
+    width: 20px;
     margin-left: 15px;
     margin-right: 5px;
   }
@@ -3342,10 +3387,10 @@
     font-size: 1.4rem;
   }
   .bangApp .bangAppExpand .bangAppContent .bangAppContent-bodyBg .bangAppContent-body .bangAppBody-groups.recruitment .recruitment-content .recruContent .recriContent-left .recruLeft-content .recruLeftCon-groups > input {
-    width: 198px;
+    width: 181px;
     height: 24px;
     margin-top: 4px;
-    margin-right: 4px;
+    margin-right: 21px;
   }
   .bangApp .bangAppExpand .bangAppContent .bangAppContent-bodyBg .bangAppContent-body .bangAppBody-groups.recruitment .recruitment-content .recruContent .recriContent-left .recruLeft-content .recruLeftCon-groups:last-child {
     height: 200px;
@@ -3392,7 +3437,7 @@
   .mainChild .introCon {
     width: 37.814%;
     left: 9.1256%;
-    bottom: 88px;
+    top: 144px;
   }
   .mainChild .introCon > h1 {
     font-size: 3.8rem;
@@ -3408,9 +3453,13 @@
     font-size: 2.1rem;
     margin-top: 15px;
   }
+  .change {
+    height: auto !important;
+  }
   .change .introCon {
     width: 25.3%;
     left: 18.269%;
+    top: 211px;
   }
   .change .advisoryMain-bg {
     width: 10.382% !important;
@@ -3425,7 +3474,7 @@
     box-sizing: border-box;
   }
   .newChange .introCon {
-    bottom: 154px;
+    top: 232px;
   }
 }
 .change .businessMain-bg {

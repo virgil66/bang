@@ -37,6 +37,7 @@
   height: 30px;
   line-height: 30px;
   text-indent: 50px;
+  font-size: 1.2rem;
   cursor: pointer;
 }
 .navChildren .navChildren-list > ul > li:hover {
@@ -54,6 +55,12 @@
 .navChildren .navChildren-title > span {
   color: #ffffff;
   font-size: 1.6rem;
+}
+.navChildren .navChildren-title > span > a {
+  color: #ffffff;
+}
+.navChildren .navChildren-title > span > a:hover {
+  color: #1eb9ee;
 }
 .navChildren .navChildren-title > img,
 .navChildren .navChildren-title > span {
