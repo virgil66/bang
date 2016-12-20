@@ -1,0 +1,155 @@
+@charset "utf-8";
+@import "common";
+
+//侧边导航栏的宽度
+@nav_w:72.5px;
+//侧边导航栏图标的宽度
+@img_s:20px;
+//侧边导航栏文字div的宽度
+@txt_w:24px;
+@li_h:38;
+
+//轮播标识的颜色
+@light_blue:#26a7e1;
+
+//news的字体颜色
+@news_color:#f6f8f7;
+
+//白色
+@white:#fff;
+
+//黑色
+@black:#000;
+
+//蓝色
+@blue:#2d297d;
+
+//浅灰色
+@lightGray:#727272;
+
+//深灰色
+@darkGray:#585657;
+
+//字体样式不加粗
+@hundred:100;
+
+
+//右侧图片的大小
+@former_width:42.93%;
+
+
+
+//渐变背景的初始颜色(蓝色)
+@start_color_blue:#00abeb;
+//渐变背景的终止颜色
+@end_color_blue:#002053;
+
+//渐变背景的初始颜色(紫色)
+@start_color_purple:#611985;
+//渐变背景的终止颜色
+@end_color_purple:#920784;
+
+//渐变背景的初始颜色(淡绿)
+@start_color_green:#6fb2a9;
+//渐变背景的终止颜色
+@end_color_green:#bfcd90;
+
+//渐变背景的初始颜色(淡蓝)
+@start_color_lightBlue:#2a5d7c;
+//渐变背景的终止颜色
+@end_color_lightBlue:#0ca19b;
+
+//渐变背景的初始颜色(红蓝)
+@start_color_redBlue:#d70050;
+//渐变背景的终止颜色
+@end_color_redBlue:#232a85;
+
+//footerCon的宽度
+@footer_bigger_w:1308px;
+@footer_big_w:940px;
+@footer_middle_w:760px;
+@footer_small_w:585px;
+
+//bang图片的宽度
+@bang_bigger_w:80px;
+@bang_big_w:80px;
+@bang_middle_w:62px;
+@bang_small_w:50px;
+
+.border_blue(){
+	.border(1px,solid,#0e6eb8);
+	.border-radius(50%);
+}
+
+//灰色分割线-左侧
+.border_left(){
+	.border-lt(2px,solid,#e6e6e8);
+}
+
+//introHelp的样式
+.introHelps(){
+	.introHelp{
+		/*.display(n);*/
+		.pos(abs);
+		/*.top(28px);*/
+		/*.left(43px);*/
+		>img{
+			.fl();
+			/*.width(56px);*/
+			/*.margin-rt(17px);*/
+		}
+	}
+	.introHelp-content{
+		.fl();
+		.font-fa(ya);
+		/*.font-size(14);*/
+		// .color(#0b327f);
+		.color(@white);
+		// .border-lt(2px,solid,#1eb9ef);
+		.border-lt(2px,solid,@white);
+		/*.padding(3px 17px);*/
+		/*.margin-tp(3px);*/
+		.margin-tp{
+			/*.margin-tp(2px);*/
+		}
+	}
+}
+
+//introCon的样式
+.introCons(){
+	.introCon{
+		.pos(abs);
+		/*.bottom(91px);*/
+		/*.left(135px);*/
+		/*.width(530px);*/
+		>h1,
+		>p,
+		.introConMore{
+			.color(#fff);
+			.font-fa(ya);
+		}
+		>h1,
+		>p{
+			/*.margin-bm(12px);*/
+		}
+		>h1{
+			.font-weight(100);
+			/*.font-size(34);*/
+		}
+		>p{
+		/*.font-size(14);*/
+		}
+		.pHide{
+			.display(n);
+		}
+		.introConMore{
+			/*.width(200px);*/
+			/*.text-ver(48px);*/
+			.display(b);
+			.text-al(center);
+			.border(1px,solid,#fff);
+			/*.font-size(18);*/
+			box-shadow: 0 0 2px 0px #fff;
+		}
+	}
+}
