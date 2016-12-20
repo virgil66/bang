@@ -427,6 +427,7 @@ body {
 .news .newsConList > p {
   color: #dde0ef;
   font-family: "Microsoft yahei";
+  font-size: 1.2rem;
 }
 :root .news {
   filter: none;

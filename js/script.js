@@ -216,7 +216,6 @@
 	$flowList.on('click',function(event){
 		var f_index = $(this).index();
 		if(f_index == 0){
-			var scroll_h = $bangService.find('.introMore').height();
 			$bangIntro.show();
 			$(this)
 				.parents('.bangHome').hide();

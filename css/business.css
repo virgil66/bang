@@ -30,8 +30,8 @@
   display: inline;
 }
 .business .businessMain .former-bg {
-  width: 21.988%;
-  margin-right: 9.615%;
+  width: 19.146%;
+  margin-right: 17.615%;
   margin-top: 20px;
 }
 .business .businessMain:after {
@@ -133,8 +133,8 @@
   display: inline;
 }
 .operation .operationMain .former-bg {
-  width: 32.763%;
-  margin-right: 6.25%;
+  width: 28.764%;
+  margin-right: 12.25%;
   margin-top: 39px;
 }
 .operation .operationMain:after {
@@ -241,8 +241,8 @@
   display: inline;
 }
 .advisory .advisoryMain .former-bg {
-  width: 15.943%;
-  margin-right: 13.369%;
+  width: 13.943%;
+  margin-right: 18.369%;
   margin-top: 33px;
 }
 .advisory .advisoryMain .turnOver {
@@ -335,8 +335,8 @@
   display: inline;
 }
 .help .helpMain .former-bg {
-  width: 18.747%;
-  margin-right: 11.397%;
+  width: 16.747%;
+  margin-right: 14.397%;
   margin-top: 31px;
 }
 .help .helpMain .turnOver {
@@ -720,10 +720,10 @@
   font-weight: 100;
 }
 .advisoryContent .advisoryBody-content > p {
-  color: #c4c4c4;
+  color: #747474;
 }
 .advisoryContent .advisoryTips {
-  color: #c4c4c4;
+  color: #747474;
   font-size: 1.2rem;
 }
 .helpContent {
@@ -737,7 +737,7 @@
   color: #585657;
 }
 .helpContent .helpBody-groups > p {
-  color: #b5b5b5;
+  color: #747474;
 }
 .bangAppContent {
   font-family: "Microsoft yahei";
@@ -2454,13 +2454,13 @@
   }
   .advisoryMain .turnOver {
     width: 73px;
-    top: 223px;
-    right: 307px;
+    top: 238px;
+    right: 28.28%;
   }
   .helpMain .turnOver {
     width: 20px;
-    top: 278px;
-    right: 234px;
+    top: 301px;
+    right: 25.225%;
   }
   .expand .expandCon {
     margin-top: -253px;
@@ -2889,12 +2889,12 @@
     margin-bottom: 4px;
   }
   .change .advisoryMain-bg {
-    width: 143px !important;
-    margin-right: 268px !important;
+    width: 12.853% !important;
+    margin-right: 24.089% !important;
   }
   .change .helpMain-bg {
-    width: 174px !important;
-    margin-right: 155px !important;
+    width: 15.640% !important;
+    margin-right: 18.337% !important;
   }
   .newChange {
     padding: 105px 0;
