@@ -18,6 +18,8 @@
 }
 .business .businessMain {
   position: relative;
+  background: #007BB7;
+  /* Only works in IE9 */
   background: linear-gradient(to right, #00abeb, #002053);
   background: -webkit-linear-gradient(to right, #00abeb, #002053);
   background: -moz-linear-gradient(to right, #00abeb, #002053);
@@ -121,6 +123,8 @@
 }
 .operation .operationMain {
   position: relative;
+  background: #7C0E84;
+  /* Only works in IE9 */
   background: linear-gradient(to right, #611985, #920784);
   background: -webkit-linear-gradient(to right, #611985, #920784);
   background: -moz-linear-gradient(to right, #611985, #920784);
@@ -227,6 +231,8 @@
 }
 .advisory .advisoryMain {
   position: relative;
+  background: #8CBCA0;
+  /* Only works in IE9 */
   background: linear-gradient(to right, #6fb2a9, #bfcd90);
   background: -webkit-linear-gradient(to right, #6fb2a9, #bfcd90);
   background: -moz-linear-gradient(to right, #6fb2a9, #bfcd90);
@@ -321,6 +327,8 @@
 }
 .help .helpMain {
   position: relative;
+  background: #1A848E;
+  /* Only works in IE9 */
   background: linear-gradient(to right, #2a5d7c, #0ca19b);
   background: -webkit-linear-gradient(to right, #2a5d7c, #0ca19b);
   background: -moz-linear-gradient(to right, #2a5d7c, #0ca19b);
@@ -423,6 +431,8 @@
   position: relative;
   padding: 45px 0;
   box-sizing: border-box;
+  background: #8D1166;
+  /* Only works in IE9 */
   background: linear-gradient(to right, #d70050, #232a85);
   background: -webkit-linear-gradient(to right, #d70050, #232a85);
   background: -moz-linear-gradient(to right, #d70050, #232a85);
@@ -866,6 +876,9 @@
   display: inline-block;
   text-align: right;
 }
+.bangAppContent .AppStore .download > img {
+  border: none;
+}
 .bangAppContent .AppStore .download > img,
 .bangAppContent .AppStore .download > span {
   vertical-align: middle;
@@ -959,6 +972,12 @@
   display: -moz-flex;
   display: -o-flex;
   display: -ms-flex;
+  *zoom: 1;
+}
+.bangAppContent .videoPlay-bottom:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 .bangAppContent .videoPlay-bottom .videoPlay-list {
   position: relative;
@@ -967,6 +986,10 @@
   -moz-flex: 1;
   -o-flex: 1;
   -ms-flex: 1;
+  width: 50%;
+  /* Only works in IE9 */
+  float: left;
+  /* Only works in IE9 */
 }
 .bangAppContent .videoPlay-bottom .videoContent {
   width: 100%;
@@ -995,6 +1018,7 @@
   outline: none;
   border: none;
   resize: none;
+  overflow: hidden;
 }
 .bangAppContent .recruLeft-title > label {
   font-weight: bold;

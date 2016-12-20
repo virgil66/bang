@@ -55,6 +55,7 @@
 }
 .footer .sina img {
   vertical-align: middle;
+  border: none;
 }
 .footer .footerLinks {
   float: right;

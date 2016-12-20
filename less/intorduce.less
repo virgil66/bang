@@ -14,9 +14,12 @@
 }
 .introMore{
 	.display(f);
+	.clearfix;
 	.more-groups{
 		.flex(1);
 		.pos(rel);
+		float: left; /* Only works in IE9 */
+		width: 50%; /* Only works in IE9 */
 	}
 	.helpBlue{
 		.introHelp-content{
@@ -147,9 +150,13 @@
 	.introDetails-title{
 		.display(f);
 		.border-bm(1px,solid,#4886c3);
+		.clearfix;
+		width: 100%; /* Only works in IE9 */
 		li{
 			.flex(1);
 			cursor: pointer;
+			float: left; /* Only works in IE9 */
+			width: 50%; /* Only works in IE9 */
 		}
 		.left{
 			.en,
@@ -192,9 +199,12 @@
 		.display(f);
 		.pos(abs);
 		.left(0);
+		.clearfix;
 		.lineList{
 			.flex(1);
 			.height(1px);
+			float: left; /* Only works in IE9 */
+			width: 50%; /* Only works in IE9 */
 		}
 		.active{
 			.border-tp(4px,solid,#0d317d);
@@ -236,9 +246,12 @@
 	.display(f);
 	.pos(rel);
 	.left(0);
+	.clearfix;
 	> li{
 		.flex(1);
 		.clearfix();
+		float: left; /* Only works in IE9 */
+		width: 50%; /* Only works in IE9 */
 	}
 	.introDetails-icon{
 		.fl();
@@ -650,7 +663,8 @@
 		.width(789px);
 		.margin-lt(-386px);
 		.introDetails-title{
-			.padding-bm(10px);
+			// .padding-bm(10px);
+			height: 43px; /* Only works in IE9 */
 			.left{
 				.en{
 					.margin-lt(84px);
@@ -800,7 +814,8 @@
 		.width(67.650%);
 		.margin-lt(-33.825%);
 		.introDetails-title{
-			.padding-bm(31px);
+			// .padding-bm(31px);
+			height: 63px; /* Only works in IE9 */
 			.left{
 				.en{
 					.margin-lt(25.548%);

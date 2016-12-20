@@ -40,6 +40,7 @@
 .business{
 	.businessMain{
 		.pos(rel);
+		background: #007BB7; /* Only works in IE9 */
 		background: linear-gradient(to right,@start_color_blue,@end_color_blue);
 		background: -webkit-linear-gradient(to right,@start_color_blue,@end_color_blue);
 		background: -moz-linear-gradient(to right,@start_color_blue,@end_color_blue);
@@ -66,6 +67,7 @@
 .operation{
 	.operationMain{
 		.pos(rel);
+		background: #7C0E84; /* Only works in IE9 */
 		background: linear-gradient(to right,@start_color_purple,@end_color_purple);
 		background: -webkit-linear-gradient(to right,@start_color_purple,@end_color_purple);
 		background: -moz-linear-gradient(to right,@start_color_purple,@end_color_purple);
@@ -95,6 +97,7 @@
 .advisory{
 	.advisoryMain{
 		.pos(rel);
+		background: #8CBCA0; /* Only works in IE9 */
 		background: linear-gradient(to right,@start_color_green,@end_color_green);
 		background: -webkit-linear-gradient(to right,@start_color_green,@end_color_green);
 		background: -moz-linear-gradient(to right,@start_color_green,@end_color_green);
@@ -125,6 +128,7 @@
 .help{
 	.helpMain{
 		.pos(rel);
+		background: #1A848E; /* Only works in IE9 */
 		background: linear-gradient(to right,@start_color_lightBlue,@end_color_lightBlue);
 		background: -webkit-linear-gradient(to right,@start_color_lightBlue,@end_color_lightBlue);
 		background: -moz-linear-gradient(to right,@start_color_lightBlue,@end_color_lightBlue);
@@ -162,6 +166,7 @@
 	.bangAppMain{
 		.pos(rel);
 		.padding(45px 0);
+		background: #8D1166; /* Only works in IE9 */
 		background: linear-gradient(to right,@start_color_redBlue,@end_color_redBlue);
 		background: -webkit-linear-gradient(to right,@start_color_redBlue,@end_color_redBlue);
 		background: -moz-linear-gradient(to right,@start_color_redBlue,@end_color_redBlue);
@@ -496,6 +501,9 @@
 				.display(ib);
 				.text-al(right);
 			}
+			>img{
+				border: none;
+			}
 			>img,
 			>span{
 				vertical-align: middle;
@@ -576,9 +584,12 @@
 	}
 	.videoPlay-bottom{
 		.display(f);
+		.clearfix;
 		.videoPlay-list{
 			.pos(rel);
 			.flex(1);
+			width: 50%; /* Only works in IE9 */
+			float: left; /* Only works in IE9 */
 		}
 		.videoContent{
 			.width-max();
@@ -608,6 +619,7 @@
 			outline: none;
 			border: none;
 			resize: none;
+			.overflow();
 		}
 	}
 	.recruLeft-title{

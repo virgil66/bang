@@ -51,6 +51,7 @@ body {
 }
 .nav a > img {
   width: 20px;
+  border: none;
 }
 .nav a > span {
   font-size: 1.2rem;
@@ -65,6 +66,8 @@ body {
   right: 0;
   padding: 0 0 0 72.5px;
   box-sizing: border-box;
+  margin-top: -8px;
+  /* Only works in IE9 */
 }
 .flow-groups {
   position: relative;
@@ -88,6 +91,9 @@ body {
   -o-flex: 1;
   -ms-flex: 1;
   width: 50%;
+  /* Only works in IE9 */
+  float: left;
+  /* Only works in IE9 */
 }
 .flow-groups .flow .last {
   margin: 0 0 0 -6px;
@@ -98,6 +104,7 @@ body {
 }
 .flow-groups .flow img {
   width: 100%;
+  border: none;
 }
 .flowRound {
   position: absolute;
@@ -113,6 +120,10 @@ body {
   cursor: pointer;
   display: inline-block;
   border-radius: 50%;
+}
+.flowRound > li:first-child {
+  margin-right: 10px;
+  /* Only works in IE9 */
 }
 .flowRound .active {
   background-color: #26a7e1;
@@ -134,6 +145,10 @@ body {
   -o-flex: 1;
   -ms-flex: 1;
   display: inline-block;
+  width: 50%;
+  /* Only works in IE9 */
+  float: left;
+  /* Only works in IE9 */
 }
 .example .exampleList > a {
   display: block;
@@ -142,6 +157,10 @@ body {
 .example .exampleList .example-pics {
   width: 100%;
   height: 100%;
+  border: none;
+}
+.example .exampleList .example-design-pics {
+  border: none;
 }
 .example .exampleList .example-design-pics,
 .example .exampleList .exampleList-content {
@@ -153,12 +172,12 @@ body {
 }
 .example .exampleList .exampleList-content > h1 {
   font-weight: 100;
-  animation: example 2s ease-in-out 1 150ms;
 }
 .example .exampleList .video-play {
   position: absolute;
   left: 50%;
   top: 50%;
+  border: none;
 }
 .example .exampleList .videoContent {
   display: none;
@@ -167,20 +186,6 @@ body {
 }
 .example .exampleList:first-child {
   background-color: #0ba29b;
-}
-@keyframes example {
-  0% {
-    opacity: 0;
-    filter: alpha(opacity=0);
-  }
-  50% {
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-  }
-  100% {
-    opacity: 1;
-    filter: alpha(opacity=100);
-  }
 }
 .app {
   background-color: #f7f7f7;
@@ -195,9 +200,20 @@ body {
   border-left-width: 2px;
   border-left-style: solid;
   border-left-color: #e6e6e8;
+  width: 100%;
 }
 .app .appmore-coat {
   overflow-x: hidden;
+  width: 100%;
+}
+.app .appMore-groups {
+  *zoom: 1;
+  width: 100%;
+}
+.app .appMore-groups:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 .app .appMoreList {
   position: relative;
@@ -206,6 +222,8 @@ body {
   -moz-flex: 1;
   -o-flex: 1;
   -ms-flex: 1;
+  float: left;
+  /* Only works in IE9 */
 }
 .app .appMoreList-con {
   width: 100%;
@@ -301,6 +319,7 @@ body {
 }
 .appMore-groups .appMoreList .appMoreList-pics {
   width: 100%;
+  border: none;
 }
 .appMore-groups .last {
   margin: 0;
@@ -377,6 +396,8 @@ body {
   color: #888888;
 }
 .news {
+  background: #0F5AA9;
+  /* Only works in IE9 */
   background: linear-gradient(to right, #0e6eb8, #122b88);
   background: -webkit-linear-gradient(to right, #0e6eb8, #122b88);
   background: -moz-linear-gradient(to right, #0e6eb8, #122b88);
@@ -433,6 +454,10 @@ body {
   filter: none;
 }
 @media screen and (max-width: 991px) {
+  .exampleList {
+    height: 212px;
+    /* Only works in IE9 */
+  }
   .exampleList .example-design-pics:nth-child(1) {
     width: 80.25px;
     left: 33.43px;
@@ -616,6 +641,10 @@ body {
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+  .exampleList {
+    height: 275px;
+    /* Only works in IE9 */
+  }
   .exampleList .example-design-pics:nth-child(1) {
     width: 104.48px;
     left: 43.53px;
@@ -781,6 +810,10 @@ body {
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1440px) {
+  .exampleList {
+    height: 384px;
+    /* Only works in IE9 */
+  }
   .exampleList .example-design-pics:nth-child(1) {
     width: 128.48px;
     left: 53.53px;
@@ -860,6 +893,8 @@ body {
     font-size: 2.1rem;
   }
   .appMore-groups .appMoreList {
+    width: 23.204%;
+    /* Only works in IE9 */
     margin: 0 30px 0 0;
   }
   .appMore-groups .appMoreList-con {
@@ -960,6 +995,10 @@ body {
   .flow-groups .flowRound > li:last-child {
     margin-left: 10px;
   }
+  .example .exampleList {
+    height: 552px;
+    /* Only works in IE9*/
+  }
   .example .exampleList:first-child .example-design-pics:nth-child(1) {
     width: 23.076%;
     left: 11.538%;
@@ -1036,6 +1075,10 @@ body {
   }
   .app .appMore-groups .appMoreList:not(.last) {
     margin-right: 35px;
+  }
+  .app .appMore-groups .appMoreList {
+    width: 23.548%;
+    /* Only works in IE9 */
   }
   .app .appMore-groups .appMoreList > a .appMoreList-con {
     padding: 0 22px 22px;

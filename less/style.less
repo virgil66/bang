@@ -34,6 +34,7 @@ body{
 		.text-al(center);
 		>img{
 			.width(@img_s);
+			border: none;
 		}
 		>span{
 			.font-size(12);
@@ -49,6 +50,7 @@ body{
 	.pos(rel);
 	.po_width();
 	.padding(0 0 0 @nav_w);
+	margin-top: -8px; /* Only works in IE9 */
 }
 .flow-groups{
 	.pos(rel);
@@ -61,7 +63,8 @@ body{
 		.display(f);
 		.flowList{
 			.flex(1);
-			.width(50%);
+			.width(50%);  /* Only works in IE9 */
+			float: left;  /* Only works in IE9 */
 		}
 		.last{
 			.margin(0 0 0 -6px);
@@ -72,6 +75,7 @@ body{
 		}
 		img{
 			.width-max();
+			border: none;
 		}
 		
 	}
@@ -88,6 +92,9 @@ body{
 		.display(ib);
 		.border-radius(50%);
 	}
+	>li:first-child{
+		margin-right: 10px; /* Only works in IE9 */
+	}
 	.active{
 		background-color: @light_blue;
 	}
@@ -100,6 +107,8 @@ body{
 		.pos(rel);
 		.flex(1);
 		.display(ib);
+		width: 50%;  /* Only works in IE9 */
+		float: left; /* Only works in IE9 */
 		>a{
 			.display(b);
 			.height(100%);
@@ -107,6 +116,10 @@ body{
 		.example-pics{
 			.width-max();
 			.height(100%);
+			border: none;
+		}
+		.example-design-pics{
+			border: none;
 		}
 		.example-design-pics,
 		.exampleList-content{
@@ -115,17 +128,15 @@ body{
 		.exampleList-content{
 			.color(@white);
 			.font-fa(ya);
-			// animation: example 1s ease-in-out 1;
-			// -webkit-animation: example 1s ease-in-out 1;
 			>h1{
 				.font-weight(100);
-				animation: example 2s ease-in-out 1 150ms;
 			}
 		}
 		.video-play{
 			.pos(abs);
 			.left(50%);
 			.top(50%);
+			border: none;
 		}
 		.videoContent{
 			.display(n);
@@ -135,17 +146,6 @@ body{
 	}
 	.exampleList:first-child{
 		.bg-color(#0BA29B);
-	}
-}
-@keyframes example{
-	0%{
-		.opa(0);
-	}
-	50%{
-		.opa(50);
-	}
-	100%{
-		.opa(100);
 	}
 }
 .app{
@@ -158,13 +158,20 @@ body{
 	.appMore-tp{
 		/*.padding(0 0 0 69px);*/
 		.border_left();
+		.width-max();
 	}
 	.appmore-coat{
 		.overflow-x();
+		.width-max();
+	}
+	.appMore-groups{
+		.clearfix;
+		.width-max();
 	}
 	.appMoreList{
 		.pos(rel);
 		.flex(1);
+		float: left; /* Only works in IE9 */
 	}
 	.appMoreList-con{
 		.width-max();
@@ -252,6 +259,7 @@ body{
 		}
 		.appMoreList-pics{
 			.width-max();
+			border: none;
 		}
 	}
 	.last{
@@ -323,6 +331,7 @@ body{
 }
 
 .news{
+	background: #0F5AA9; /* Only works in IE9 */
 	background: linear-gradient(to right,#0e6eb8,#122b88);
 	background: -webkit-linear-gradient(to right,#0e6eb8,#122b88);
 	background: -moz-linear-gradient(to right,#0e6eb8,#122b88);
@@ -365,6 +374,7 @@ body{
 
 @media screen and (max-width: 991px){
 	.exampleList{
+		height: 212px; /* Only works in IE9 */
 		.example-design-pics:nth-child(1){
 			.width(80.25px);
 			.left(33.43px);
@@ -549,6 +559,7 @@ body{
 }
 @media screen and (min-width: 992px) and (max-width: 1199px){
 	.exampleList{
+		height: 275px; /* Only works in IE9 */
 		.example-design-pics:nth-child(1){
 			.width(104.48px);
 			.left(43.53px);
@@ -714,6 +725,7 @@ body{
 }
 @media screen and (min-width: 1200px) and (max-width: 1440px){
 	.exampleList{
+		height: 384px; /* Only works in IE9 */
 		.example-design-pics:nth-child(1){
 			.width(128.48px);
 			.left(53.53px);
@@ -791,6 +803,7 @@ body{
 	}
 	.appMore-groups{
 		.appMoreList{
+			width: 23.204%; /* Only works in IE9 */
 			.margin(0 30px 0 0);
 		}
 		.appMoreList-con{
@@ -897,6 +910,9 @@ body{
 		}
 	}
 	.example{
+		.exampleList{
+			height: 552px; /* Only works in IE9*/
+		}
 		.exampleList:first-child{
 			.example-design-pics:nth-child(1){
 				.width(23.076%);
@@ -977,6 +993,7 @@ body{
 				.margin-rt(35px);
 			}
 			.appMoreList{
+				width: 23.548%; /* Only works in IE9 */
 				>a{
 					.appMoreList-con{
 						.padding(0 22px 22px);
