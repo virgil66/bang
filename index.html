@@ -3,7 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="save" content="history">
 	<title>壹帮帮</title>
 	<link rel="icon" href="img/index_icon_logo.png" type="image/png">
 	<link rel="stylesheet" href="css/style.css">
@@ -59,7 +60,7 @@
 	</ul>
 	<div class="bang">
 		<!-- 壹帮帮首页 -->
-		<div class="bangHome">
+		<div class="bangHome" id="bangHome">
 			<div class="flow-groups">
 				<ul class="flow">
 					<li class="flowList">
@@ -108,7 +109,7 @@
 							</div> -->
 							<h1>我们更懂你的需求</h1>
 							<p>全新壹帮帮官方APP，开启更便捷的使用体验。将复杂的流程轻松关联至您的手机，及时通过手机进行招聘，查看和管理。</p>
-							<a href="##" class="paltform-btn">了解更多</a>
+							<a href="#bangApp" class="paltform-btn">了解更多</a>
 						</div>
 					</div>
 					<div class="appMore-rt">
@@ -116,7 +117,7 @@
 							<div class="appmore-coat">
 								<ul class="appMore-groups">
 									<li class="appMoreList">
-										<a href="##">
+										<a href="#bangApp">
 											<img src="img/index_app_introduce.png" alt="" class="appMoreList-pics" />
 											<div class="appMoreList-con">
 												<h3>APP介绍</h3>
@@ -125,7 +126,7 @@
 										</a>
 									</li>
 									<li class="appMoreList">
-										<a href="##">
+										<a href="#bangApp">
 											<img src="img/index_app_wechat.png" alt="" class="appMoreList-pics" />
 											<div class="appMoreList-con">
 												<h3>APP二维码</h3>
@@ -134,7 +135,7 @@
 										</a>
 									</li>
 									<li class="appMoreList">
-										<a href="##">
+										<a href="#bangApp">
 											<img src="img/index_app_vedio.png" alt="" class="appMoreList-pics" />
 											<div class="appMoreList-con">
 												<h3>视频教学</h3>
@@ -143,7 +144,7 @@
 										</a>
 									</li>
 									<li class="appMoreList last">
-										<a href="##">
+										<a href="#bangApp">
 											<img src="img/index_app_recruit.png" alt="" class="appMoreList-pics" />
 											<div class="appMoreList-con">
 												<h3>APP介绍</h3>
@@ -329,7 +330,7 @@
 		<!-- 壹帮帮产品服务页 -->
 		<div class="bangService" id="bangService">
 			<!-- 商家开店 -->
-			<div class="business">
+			<div class="business" id="business">
 				<div class="businessMain mainChild">
 					<img src="img/chanpingfuwu_shangjiakaidian_icon.png" alt="" class="businessMain-bg former-bg" />
 					<div class="introHelp">
@@ -342,7 +343,7 @@
 					<div class="introCon">
 						<h1>商家开店</h1>
 						<p>为有梦想开店创业者提供一站式支撑帮助：店面设计、产品设计、门店设备供应、物料供应、招聘培训、视频教学、视频交流讨论等。你想开店，我们帮你实现！</p>
-						<a href="##" class="introConMore">了解更多</a>
+						<a href="#business" class="introConMore">了解更多</a>
 					</div>
 				</div>
 				<div class="expand businessExpand">
@@ -401,7 +402,7 @@
 				</div>
 			</div>
 			<!-- 运营推广 -->
-			<div class="operation">
+			<div class="operation" id="operation">
 				<div class="operationMain mainChild">
 					<img src="img/chanpingfuwu_yunyingtuiguang_icon.png" alt="" class="operationMain-bg former-bg" />
 					<div class="introHelp helpCommon">
@@ -414,7 +415,7 @@
 					<div class="introCon">
 						<h1>运营推广</h1>
 						<p>为已经开店营业中的店主、店长们提供运营推广服务：VI设计、人力资源管理、IT系统搭建、互联网运营、互联网推广等。内部运营外部推广，线上营销线下促销，整合一体化服务。</p>
-						<a href="##" class="introConMore">了解更多</a>
+						<a href="#operation" class="introConMore">了解更多</a>
 					</div>
 				</div>
 				<div class="expand operationExpand">
@@ -463,7 +464,7 @@
 			</div>
 		</div>
 		<!-- 壹帮帮APP -->
-		<div class="bangApp">
+		<div class="bangApp" id="bangApp">
 			<div class="bangAppMain change">
 				<img src="img/app_icon_world.png" alt="" class="bangAppMain-bg former-bg" />
 				<div class="introHelp helpCommon helpWhite">
@@ -781,9 +782,9 @@
 			</div>
 		</div>
 		<!-- 壹帮帮帮助中心页 -->
-		<div class="bangHelp">
+		<div class="bangHelp" id="bangHelp">
 			<!-- 客服咨询 -->
-			<div class="advisory">
+			<div class="advisory" id="advisory">
 				<div class="advisoryMain mainChild">
 					<img src="img/help_icon_kefuzixun.png" alt="" class="advisoryMain-bg former-bg" />
 					<img src="img/help_icon_kefuzixun-01.png" alt="" class="turnOver" />
@@ -798,7 +799,7 @@
 						<h1>客服咨询</h1>
 						<p class="pShow">我们通过一系列多维的技术支持，如采用QQ在线支持，微信客服等去哪渠道客服系统，应对用户在使用过程中产生的各种问题，为用户提供更可靠、更无缝的客服支持。</p>
 						<p class="pHide">移动生活无止尽-自由，无处不在。随着移动设备的发展，我们提供越来越多的客服支持，旨在为用户提供最新的技术和绝佳的体验。</p>
-						<a href="##" class="introConMore">立即前往</a>
+						<a href="#advisory" class="introConMore">立即前往</a>
 					</div>
 				</div>
 				<div class="expand advisoryExpand">
@@ -838,7 +839,7 @@
 				</div>
 			</div>
 			<!-- 帮助中心 -->
-			<div class="help">
+			<div class="help" id="help">
 				<div class="helpMain mainChild">
 					<img src="img/help_icon_bangzhuzhongxin.png" alt="" class="helpMain-bg former-bg" />
 					<img src="img/bangzhuzhongxin_icon_arrow.png" alt="" class="turnOver" />
@@ -854,7 +855,7 @@
 						<p class="margin-b-none pShow">无论你是刚刚接触，还是在使用时遇到问题，都可以得到有效的解决。</p>
 						<p class="pShow">专业的客服咨询团队为你提供全方位的信息咨询/方案推荐/价格统筹等1对1的贴心服务，助你快速上手</p>
 						<p class="pHide">无论在家里、在工作中或外出活动，帮助中心都可提供快速、安全、有效的支持，几乎无处不在。</p>
-						<a href="##" class="introConMore">立即前往</a>
+						<a href="#help" class="introConMore">立即前往</a>
 					</div>
 				</div>
 				<div class="expand helpExpand">
@@ -937,7 +938,7 @@
 			<li class="navChildren-list">
 				<div class="navChildren-title">
 					<img src="img/nav_light_white_home.png" alt="" />
-					<span  class="navHome">首页</span>
+					<span  class="navHome"><a href="#bangHome">首页</a></span>
 				</div>
 				<!-- <ul>
 					<li class="navHome">首页</li>
@@ -946,7 +947,7 @@
 			<li class="navChildren-list">
 				<div class="navChildren-title">
 					<img src="img/nav_light_white_introduce.png" alt="" />
-					<span class="navIntroduce">产品介绍</span>
+					<span class="navIntroduce"><a href="#bangIntro">产品介绍</a></span>
 				</div>
 				<!-- <ul>
 					<li class="navProduct">产品介绍</li>
@@ -955,17 +956,17 @@
 			<li class="navChildren-list">
 				<div class="navChildren-title">
 					<img src="img/nav_light_white_service.png" alt="" />
-					<span class="navService">产品服务</span>
+					<span class="navService"><a href="#bangService">产品服务</a></span>
 				</div>
 				<ul>
-					<li class="navOpen">商家开店</li>
-					<li class="navOperation">运营推广</li>
+					<li class="navOpen"><a href="#business">商家开店</a></li>
+					<li class="navOperation"><a href="#operation">运营推广</a></li>
 				</ul>
 			</li>
 			<li class="navChildren-list">
 				<div class="navChildren-title">
 					<img src="img/nav_light_white_app.png" alt="" />
-					<span class="navApp">APP</span>
+					<span class="navApp"><a href="#bangApp">APP</a></span>
 				</div>
 				<!-- <ul>
 					<li class="navApp">APP</li>
@@ -974,11 +975,11 @@
 			<li class="navChildren-list">
 				<div class="navChildren-title">
 					<img src="img/nav_light_white_help.png" alt="" />
-					<span class="navHelp">帮助中心</span>
+					<span class="navHelp"><a href="#bangHelp">帮助中心</a></span>
 				</div>
 				<ul>
-					<li class="navAdvisory">客服咨询</li>
-					<li class="navCenter">帮助中心</li>
+					<li class="navAdvisory"><a href="#advisory">客服咨询</a></li>
+					<li class="navCenter"><a href="#help">帮助中心</a></li>
 				</ul>
 			</li>
 			<li class="navChildren-list">
@@ -994,5 +995,145 @@
 	</div>
 	<script src="js/jquery-3.1.1.js"></script>
 	<script src="js/script.js"></script>
+	<script>
+		//定义objBnag对象，用于获取导航栏每一模块的class值
+		var objBang = {
+					"0":"bangHome",
+					"1":"bangIntro",
+					"2":"bangService",
+					"3":"bangApp",
+					"4":"bangHelp"
+				}
+		var i = 0;
+		switch(window.location.hash){
+			case "#bangHome":{
+				i = 0;
+				cookieShow(i);
+				break;
+			}
+			case "#bangIntro":{
+				i = 1;
+				cookieShow(i);
+				break;
+			}
+			case "#bangService":{
+				i = 2;
+				cookieShow(i);
+				break;
+			}
+			case "#bangApp":{
+				i = 3;
+				cookieShow(i);
+				break;
+			}
+			case "#bangHelp":{
+				i = 4;
+				cookieShow(i);
+				break;
+			}
+			case "#business":{
+				i = 5;
+				cookieShow(i);
+				break;
+			}
+			case "#operation":{
+				i = 6;
+				cookieShow(i);
+				break;
+			}
+			case "#advisory":{
+				i = 7;
+				cookieShow(i);
+				break;
+			}
+			case "#help":{
+				i = 8;
+				cookieShow(i);
+				break;
+			}
+			case "#introDetails":{
+				i = 1;
+				cookieShow(i);
+				break;
+			}
+			default:
+		}
+
+		function cookieShow(i){
+			switch(i){
+				case 0:
+				case 1:
+				case 3:{
+					$('#'+ objBang[i])
+									.show()
+									.siblings().hide();
+					$('.footer').show();
+					break;
+				}
+				case 2:
+				case 4:{
+					$('#'+ objBang[i])
+									.show()
+									.siblings().hide();
+					$('.footer').hide();
+					break;
+				}
+				case 5:{
+					$('#'+ objBang[2])
+									.show()
+									.find('.business')
+									.find('.businessMain').addClass('change')
+									.siblings('.businessExpand').show()
+									.parent()
+									.siblings('.operation').hide()
+									.parent()
+									.siblings().hide();
+					$('.footer').show();
+					break;
+				}
+				case 6:{
+					$('#'+ objBang[2])
+									.show()
+									.find('.operation')
+									.find('.operationMain').addClass('change')
+									.siblings('.operationExpand').show()
+									.parent()
+									.siblings('.business').hide()
+									.parent()
+									.siblings().hide();
+					$('.footer').show();
+					break;
+				}
+				case 7:{
+					$('#'+ objBang[3])
+									.show()
+									.find('.advisory')
+									.find('.advisoryMain').addClass('change newChange')
+									.siblings('.advisoryExpand').show()
+									.parent()
+									.siblings('.help').hide()
+									.parent()
+									.siblings().hide();
+					$('.footer').show();
+					break;
+				}
+				case 8:{
+					$('#'+ objBang[3])
+									.show()
+									.find('.help')
+									.find('.helpMain').addClass('change newChange')
+									.siblings('.helpExpand').show()
+									.parent()
+									.siblings('.advisory').hide()
+									.parent()
+									.siblings().hide();
+					$('.footer').show();
+					break;
+				}
+				default:
+			}
+
+		}
+	</script>
 </body>
 </html>

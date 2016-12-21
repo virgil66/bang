@@ -112,8 +112,8 @@ body {
   bottom: 20px;
 }
 .flowRound > li {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   border-width: 1px;
   border-style: solid;
   border-color: #26a7e1;
@@ -346,6 +346,9 @@ body {
   border-color: #0e6eb8;
   border-radius: 50%;
 }
+.appMore-bm ul > li:first-child {
+  margin-right: 5px;
+}
 .appMore-bm ul .active {
   background-color: #0e6eb8;
 }
@@ -433,6 +436,12 @@ body {
   display: -moz-flex;
   display: -o-flex;
   display: -ms-flex;
+  *zoom: 1;
+}
+.news .newsCon-groups:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 .news .newsConList {
   flex: 1;
@@ -440,6 +449,8 @@ body {
   -moz-flex: 1;
   -o-flex: 1;
   -ms-flex: 1;
+  float: left;
+  /* Only works in IE9 */
 }
 .news .newsConList > h4 {
   color: #ebecf1;
@@ -970,6 +981,8 @@ body {
   }
   .news .newsConList {
     margin-right: 26px;
+    width: 29.994%;
+    /* Only works in IE9 */
   }
   .news .newsConList > h4 {
     font-size: 2rem;
@@ -1144,6 +1157,8 @@ body {
     margin-bottom: 15px;
   }
   .news .newsCon .newsCon-groups .newsConList {
+    width: 28.676%;
+    /* Only works in IE9 */
     margin-right: 52px;
   }
   .news .newsCon .newsCon-groups .newsConList > h4 {

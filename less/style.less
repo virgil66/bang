@@ -85,8 +85,8 @@ body{
 	.right(65px);
 	.bottom(20px); 
 	>li{
-		.width(10px);
-		.height(10px);
+		.width(15px);
+		.height(15px);
 		.border(1px,solid,@light_blue);
 		cursor: pointer;
 		.display(ib);
@@ -280,6 +280,9 @@ body{
 			.ver-al(middle);
 			.border_blue();
 		}
+		>li:first-child{
+			.margin-rt(5px);
+		}
 		.active{
 			.bg-color(#0e6eb8);
 		}
@@ -356,9 +359,11 @@ body{
 	}
 	.newsCon-groups{
 		.display(f);
+		.clearfix;
 	}
 	.newsConList{
 		.flex(1);
+		float: left; /* Only works in IE9 */
 		>h4{
 			.color(#ebecf1);
 			.font-fa(ya);
@@ -879,6 +884,7 @@ body{
 		}
 		.newsConList{
 			.margin-rt(26px);
+			width: 29.994%; /* Only works in IE9 */
 			>h4{
 				.font-size(20);
 				.margin-bm(8px);
@@ -1066,6 +1072,7 @@ body{
 			}
 			.newsCon-groups{
 				.newsConList{
+					width: 28.676%; /* Only works in IE9 */
 					.margin-rt(52px);
 					>h4{
 						.font-size(22);

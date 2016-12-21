@@ -42,6 +42,8 @@
 }
 .navChildren .navChildren-list > ul > li:hover {
   background-color: #000000;
+}
+.navChildren .navChildren-list > ul > li:hover > a {
   color: #0ba299;
 }
 .navChildren .navChildren-title {
